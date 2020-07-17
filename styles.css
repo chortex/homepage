@@ -299,6 +299,7 @@ a {
   bottom: 0;
 }
 .section-wrapper .skill-percentage:nth-child(1)::before {
+<<<<<<< HEAD
   width: 75%;
   animation: skill_1 0.6s ease;
 }
@@ -322,11 +323,29 @@ a {
   width: 50%;
   animation: skill_6 0.6s ease;
 }
+=======
+  width: 65%;
+  animation: skill_1 0.6s ease;
+}
+.section-wrapper .skill-percentage:nth-child(2)::before {
+  width: 60%;
+  animation: skill_2 0.6s ease;
+}
+.section-wrapper .skill-percentage:nth-child(3)::before {
+  width: 40%;
+  animation: skill_3 0.6s ease;
+}
+.section-wrapper .skill-percentage:nth-child(4)::before {
+  width: 70%;
+  animation: skill_4 0.6s ease;
+}
+>>>>>>> 00963afcca0fe0466f387d057de382615436a5f7
 @keyframes skill_1 {
   from {
     width: 0%;
   }
   to {
+<<<<<<< HEAD
     width: 75%;
   }
 }
@@ -347,6 +366,12 @@ a {
   }
 }
 @keyframes skill_4 {
+=======
+    width: 65%;
+  }
+}
+@keyframes skill_2 {
+>>>>>>> 00963afcca0fe0466f387d057de382615436a5f7
   from {
     width: 0%;
   }
@@ -354,7 +379,11 @@ a {
     width: 60%;
   }
 }
+<<<<<<< HEAD
 @keyframes skill_5 {
+=======
+@keyframes skill_3 {
+>>>>>>> 00963afcca0fe0466f387d057de382615436a5f7
   from {
     width: 0%;
   }
@@ -362,11 +391,19 @@ a {
     width: 40%;
   }
 }
+<<<<<<< HEAD
 @keyframes skill_6 {
+=======
+@keyframes skill_4 {
+>>>>>>> 00963afcca0fe0466f387d057de382615436a5f7
   from {
     width: 0%;
   }
   to {
+<<<<<<< HEAD
     width: 50%;
+=======
+    width: 70%;
+>>>>>>> 00963afcca0fe0466f387d057de382615436a5f7
   }
 }
